@@ -162,4 +162,4 @@ pip-sync
 Запомни:
 👉 `requirements.in` — ты пишешь
 👉 `requirements.txt` — машина пишет
-👉 `pip-sync` — приводит всё в порядок
+👉 `pip-sync` — приводит всё в порядок`
