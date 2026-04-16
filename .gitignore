@@ -13,3 +13,31 @@ __pycache__/
 .vscode/
 .idea/
 *.log
+#
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE (VS Code, PyCharm)
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# My custom
+temp/
+results/
