@@ -1,5 +1,15 @@
+# Виртуальное окружение
+PC/
 venv/
 .venv/
 env/
+
+# Кэш Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Другое
+.vscode/
+.idea/
+*.log
