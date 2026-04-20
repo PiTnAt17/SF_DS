@@ -1,29 +1,67 @@
-__pycache__/
+# ===== Python =====
+
+**pycache**/
 *.py[cod]
 *.so
+
+# ===== Виртуальное окружение =====
 
 .venv/
 venv/
 env/
 
+# ===== Сборка =====
+
 build/
 dist/
 *.egg-info/
 
-.ipynb_checkpoints/
-
-.vscode/
-.idea/
-*.swp
-
-.DS_Store
-Thumbs.db
+# ===== Логи =====
 
 *.log
 
+# ===== Тесты / кеш =====
+
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# ===== IDE =====
+
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# ===== Секреты =====
+
 .env
+.secrets
+config.local.py
 
-data/
+# ===== ДАННЫЕ =====
 
-temp/
+data/raw/
+data/tmp/
+!data/*.csv
+
+# ===== РЕЗУЛЬТАТЫ =====
+
+output/
 results/
+!output/*.png
+
+# ===== Базы данных =====
+
+*.db
+*.sqlite
+
+# ===== Jupyter =====
+
+.ipynb_checkpoints/
+
+# ===== Временные =====
+
+*.tmp
+*.bak
+*.swp
+*~
