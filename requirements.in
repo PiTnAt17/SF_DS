@@ -1,4 +1,8 @@
 # Без версий (pip сам возьмёт последние)
+pandas
+seaborn
+matplotlib
+category_encoders
 anyio
 argon2-cffi
 arrow

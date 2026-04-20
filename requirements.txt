@@ -55,7 +55,7 @@ brotli==1.2.0
     # via
     #   -r requirements.in
     #   flask-compress
-build==1.4.2
+build==1.4.3
     # via
     #   -r requirements.in
     #   pip-tools
@@ -129,7 +129,7 @@ defusedxml==0.7.1
     #   nbconvert
 dtale==3.22.0
     # via -r requirements.in
-duckdb==1.5.1
+duckdb==1.5.2
     # via -r requirements.in
 et-xmlfile==2.0.0
     # via
@@ -365,7 +365,7 @@ mistune==3.2.0
     # via
     #   -r requirements.in
     #   nbconvert
-narwhals==2.18.1
+narwhals==2.19.0
     # via
     #   -r requirements.in
     #   plotly
@@ -373,7 +373,7 @@ nbclient==0.10.4
     # via
     #   -r requirements.in
     #   nbconvert
-nbconvert==7.17.0
+nbconvert==7.17.1
     # via
     #   -r requirements.in
     #   jupyter
@@ -425,7 +425,7 @@ orjson==3.11.8
     # via
     #   -r requirements.in
     #   kaleido
-packaging==26.0
+packaging==26.1
     # via
     #   -r requirements.in
     #   build
@@ -474,11 +474,11 @@ pkginfo==1.12.1.2
     # via
     #   -r requirements.in
     #   dtale
-platformdirs==4.9.4
+platformdirs==4.9.6
     # via
     #   -r requirements.in
     #   jupyter-core
-plotly==6.6.0
+plotly==6.7.0
     # via
     #   -r requirements.in
     #   dash
@@ -487,11 +487,11 @@ pluggy==1.6.0
     # via
     #   -r requirements.in
     #   pytest
-polars==1.39.3
+polars==1.40.0
     # via -r requirements.in
-polars-runtime-32==1.39.3
+polars-runtime-32==1.40.0
     # via polars
-prometheus-client==0.24.1
+prometheus-client==0.25.0
     # via
     #   -r requirements.in
     #   jupyter-server
@@ -529,7 +529,7 @@ pyproject-hooks==1.2.0
     #   -r requirements.in
     #   build
     #   pip-tools
-pytest==9.0.2
+pytest==9.0.3
     # via
     #   -r requirements.in
     #   pytest-timeout
@@ -622,7 +622,7 @@ send2trash==2.1.0
     # via
     #   -r requirements.in
     #   jupyter-server
-simplejson==3.20.2
+simplejson==4.0.1
     # via
     #   -r requirements.in
     #   choreographer
@@ -740,7 +740,7 @@ widgetsnbextension==4.0.15
     # via
     #   -r requirements.in
     #   ipywidgets
-xarray==2026.2.0
+xarray==2026.4.0
     # via
     #   -r requirements.in
     #   dtale
@@ -748,7 +748,7 @@ xlrd==2.0.2
     # via
     #   -r requirements.in
     #   dtale
-zipp==3.23.0
+zipp==3.23.1
     # via
     #   -r requirements.in
     #   importlib-metadata
